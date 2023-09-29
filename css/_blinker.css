@@ -1,0 +1,17 @@
+.blinker {
+    opacity: 1;
+    margin-bottom: -2px;
+    height: 15px;
+    margin-left: -5px;
+    border-left: 7px solid #0FFF50;
+}
+
+.blinker.blinking {
+    animation: blinking 0.9s steps(2, start) infinite;
+}
+
+@keyframes blinking {
+    to {
+        visibility: hidden;
+    }
+}

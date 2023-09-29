@@ -1,0 +1,48 @@
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+@import url("_about.css");
+@import url("_anchor.css");
+@import url("_blinker.css");
+@import url("_list.css");
+@import url("_scroll.css");
+
+:root {
+    --color-neon-green: #0FFF50;
+    --tablet-screen-width: 768px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+::selection {
+    color: black;
+    background-color: var(--color-neon-green);
+}
+
+html {
+    font-family: Monaco, monospace;
+    font-size: 16px;
+    background-color: black;
+    color: var(--color-neon-green);
+}
+
+code {
+    line-height: initial;
+}
+
+.terminal,
+.cowsay {
+    margin: 1em;
+    max-width: var(--tablet-screen-width);
+}
+
+.section > * {
+    margin-bottom: 1em;
+}
+
+.command {
+    margin-left: 5px;
+    margin-right: 5px;
+}

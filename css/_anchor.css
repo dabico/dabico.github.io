@@ -1,0 +1,18 @@
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a[target='_blank'] {
+    cursor: alias;
+}
+
+a:focus,
+a:hover,
+a:active {
+    outline: 0;
+    color: black;
+    background-color: var(--color-neon-green);
+    text-decoration: none!important;
+}
