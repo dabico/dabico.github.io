@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{#keywords}}{{#if @index}}, {{/if}}{{this}}{{/keywords}}">
+    <meta name="author" content="Ozren Dabić">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <title>ozrendabic ⎯ ~{{ path }}</title>
+    {{#if stylesheets}}
+      {{{ stylesheets }}}
+    {{/if}}
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/favicon.ico">
+    <noscript>
+      <div class="cowsay">
+        <div>&gt;<span class="command">cowsay $JAVASCRIPT_DISABLED</span></div>
+        <pre>
+          <code>
+ ________________________________________
+/ Please enable JavaScript to access the \
+\ full functionality of this terminal.   /
+ ----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+          </code>
+        </pre>
+        <div>
+          <div>&gt;&nbsp;<span class="blinker blinking"></span></div>
+        </div>
+      </div>
+    </noscript>
+  </head>
+  <body data-page-name="{{ id }}">
+    <main class="terminal">
+      {{#commands}}
+        <div class="section" hidden>
+          <div class="prompt">&gt;<span class="command" data-text="{{ command }}"></span><span class="blinker"></span></div>
+          <div class="output" hidden>{{{ output }}}</div>
+        </div>
+      {{/commands}}
+      {{#if action}}
+        {{#with action}}
+          <div class="section" hidden>
+            <div class="prompt">&gt;<a class="command" data-text="{{ command }}" href="{{ href }}"></a><span class="blinker"></span></div>
+          </div>
+        {{/with}}
+      {{else}}
+        <div class="section" hidden>
+          <div class="prompt">&gt;<a class="command" data-text="cd .." href="/"></a><span class="blinker"></span></div>
+        </div>
+      {{/if}}
+    </main>
+  </body>
+  {{#if scripts}}
+    {{{ scripts }}}
+  {{/if}}
+  <script src="/js/main.js"></script>
+</html>

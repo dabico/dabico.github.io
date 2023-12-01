@@ -1,0 +1,19 @@
+id: blog
+path: /blog
+description: Directory containing links to blog posts
+keywords:
+  - link
+  - blog
+  - article
+  - writing
+commands:
+  - command: ls -lh
+    output: |-
+      <ul>
+        <li>
+          <span>lrw-r--r--</span>
+          <span>ozrendabic</span>
+          <span>root</span>
+          <a href="/blog/00_hello_world.md.html">00_hello_world.md</a>
+        </li>
+      </ul>

@@ -1,0 +1,58 @@
+id: projects
+path: /projects
+description: Directory containing links to projects
+keywords:
+  - link
+  - project
+  - repository
+  - github
+  - software
+  - open source
+  - library
+commands:
+  - command: ls -lh
+    output: |-
+      <ul>
+        <li>
+          <span>lrwxr--r--</span>
+          <span>ozrendabic</span>
+          <span>seart-group</span>
+          <a href="https://github.com/seart-group/ghs" target="_blank">ghs</a>
+        </li>
+        <li>
+          <span>lrwxr--r--</span>
+          <span>ozrendabic</span>
+          <span>seart-group</span>
+          <a href="https://github.com/seart-group/DL4SE" target="_blank">DL4SE</a>
+        </li>
+        <li>
+          <span>lrwxr--r--</span>
+          <span>ozrendabic</span>
+          <span>seart-group</span>
+          <a href="https://github.com/seart-group/java-tree-sitter" target="_blank">java-tree-sitter</a>
+        </li>
+        <li>
+          <span>lrwxr--r--</span>
+          <span>ozrendabic</span>
+          <span>seart-group</span>
+          <a href="https://github.com/seart-group/jakarta-validation-utils" target="_blank">jakarta-validation-utils</a>
+        </li>
+        <li>
+          <span>lrwxr--r--</span>
+          <span>ozrendabic</span>
+          <span>seart-group</span>
+          <a href="https://github.com/seart-group/labeler" target="_blank">labeler</a>
+        </li>
+        <li>
+          <span>lrwxr--r--</span>
+          <span>ozrendabic</span>
+          <span>seart-group</span>
+          <a href="https://github.com/seart-group/github-keyword-crawler" target="_blank">github-keyword-crawler</a>
+        </li>
+        <li>
+          <span>lrwxr--r--</span>
+          <span>ozrendabic</span>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root</span>
+          <a href="https://github.com/dabico/octicons-css" target="_blank">octicons-css</a>
+        </li>
+      </ul>

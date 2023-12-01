@@ -1,0 +1,25 @@
+id: placeholder
+path: /blog
+description: The page you were looking for could not be found
+keywords:
+  - 404
+  - not found
+commands:
+  - command: cat 00_hello_world.md
+    output: |-
+      <p>cat: 00_hello_world.md: No such file or directory</p>
+  - command: cat ~/404.txt
+    output: |-
+      <pre><code>
+            .o     .oooo.         .o
+          .d88    d8P'`Y8b      .d88
+        .d'888   888    888   .d'888
+      .d'  888   888    888 .d'  888
+      88ooo888oo 888    888 88ooo888oo
+           888   `88b  d88'      888
+          o888o   `Y8bd8P'      o888o
+
+                  NOT FOUND</code></pre>
+action:
+  command: clear
+  href: /blog

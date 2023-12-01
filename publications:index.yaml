@@ -1,0 +1,23 @@
+id: publications
+path: /publications
+description: Directory containing links to published research
+keywords:
+  - link
+  - publication
+  - preprint
+  - research
+  - ArXiv
+  - IEEE
+  - mining software repositories
+  - MSR
+commands:
+  - command: ls -lh
+    output: |-
+      <ul>
+        <li>
+          <span>lrw-r--r--</span>
+          <span>ozrendabic</span>
+          <span>seart-group</span>
+          <a href="https://arxiv.org/pdf/2103.04682.pdf" target="_blank">msr_2021.pdf</a>
+        </li>
+      </ul>

@@ -1,0 +1,36 @@
+id: 404
+path:
+description: The page you were looking for could not be found
+keywords:
+  - 404
+  - not found
+commands:
+  - command: cat ~/404.txt
+    output: |-
+      <pre><code>
+            .o     .oooo.         .o
+          .d88    d8P'`Y8b      .d88
+        .d'888   888    888   .d'888
+      .d'  888   888    888 .d'  888
+      88ooo888oo 888    888 88ooo888oo
+           888   `88b  d88'      888
+          o888o   `Y8bd8P'      o888o
+
+                  NOT FOUND</code></pre>
+action:
+  command: cd /
+  href: /
+scripts: |-
+  <script>
+      (function () {
+          const path = window.location.pathname;
+          const segments = path.split("/");
+          const page = segments.pop().replace(/\.[^/.]+$/, "");
+          const command = `<span class="command" data-text="cd ${page}"></span>`
+          const prompt = `<div class="prompt">&gt;${command}<span class="blinker"></span></div>`
+          const output = `<div class="output" hidden><p>cd: The directory '${page}' does not exist</p></div>`;
+          const html = `<div class="section" hidden>${prompt +output}</div>`;
+          const terminal = document.querySelector(".terminal");
+          terminal.insertAdjacentHTML("afterbegin", html);
+      })();
+  </script>
