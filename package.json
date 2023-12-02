@@ -10,6 +10,9 @@
     "parcel-build": "node index.js && parcel build index.html 404.html **/*.html",
     "build": "npm-run-all parcel-clean parcel-build"
   },
+  "staticFiles": {
+    "staticPath": "CNAME"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dabico/dabico.github.io.git"
