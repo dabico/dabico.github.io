@@ -130,6 +130,18 @@ a:active {
     }
 }
 
+@media (width <= 425) {
+    .ref {
+        display: none;
+    }
+}
+
+@media (width <= 500px) {
+    .sha {
+        display: none;
+    }
+}
+
 @media (width <= 540px) {
     .about {
         flex-direction: column;

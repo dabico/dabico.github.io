@@ -10,49 +10,42 @@ keywords:
   - open source
   - library
 commands:
-  - command: ls -lh
+  - command: git submodule status
     output: |-
       <ul>
         <li>
-          <span>lrwxr--r--</span>
-          <span>ozrendabic</span>
-          <span>seart-group</span>
+          <span class="sha">fad4b3b</span>
           <a href="https://github.com/seart-group/ghs" target="_blank">ghs</a>
+          <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span>lrwxr--r--</span>
-          <span>ozrendabic</span>
-          <span>seart-group</span>
+          <span class="sha">f5648c7</span>
           <a href="https://github.com/seart-group/DL4SE" target="_blank">DL4SE</a>
+          <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span>lrwxr--r--</span>
-          <span>ozrendabic</span>
-          <span>seart-group</span>
+          <span class="sha">70626e5</span>
           <a href="https://github.com/seart-group/java-tree-sitter" target="_blank">java-tree-sitter</a>
+          <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span>lrwxr--r--</span>
-          <span>ozrendabic</span>
-          <span>seart-group</span>
+          <span class="sha">a95d535</span>
           <a href="https://github.com/seart-group/jakarta-validation-utils" target="_blank">jakarta-validation-utils</a>
+          <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span>lrwxr--r--</span>
-          <span>ozrendabic</span>
-          <span>seart-group</span>
+          <span class="sha">7a01268</span>
           <a href="https://github.com/seart-group/labeler" target="_blank">labeler</a>
+          <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span>lrwxr--r--</span>
-          <span>ozrendabic</span>
-          <span>seart-group</span>
+          <span class="sha">8ee3c66</span>
           <a href="https://github.com/seart-group/github-keyword-crawler" target="_blank">github-keyword-crawler</a>
+          <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span>lrwxr--r--</span>
-          <span>ozrendabic</span>
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root</span>
+          <span class="sha">17e26be</span>
           <a href="https://github.com/dabico/octicons-css" target="_blank">octicons-css</a>
+          <span class="ref">(heads/main)</span>
         </li>
       </ul>
