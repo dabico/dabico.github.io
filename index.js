@@ -7,10 +7,10 @@ import Handlebars from 'handlebars';
 const template = await fs.readFile(Path.resolve('index.html.hbs'), 'utf-8');
 const render = Handlebars.compile(template);
 const options = {
-        minifyJS: true,
-        minifyCSS: true,
-        removeComments: true,
-        collapseWhitespace: true,
+    minifyJS: true,
+    minifyCSS: true,
+    removeComments: true,
+    collapseWhitespace: true,
 };
 
 const files = await fs.readdir(".", { withFileTypes: true });
