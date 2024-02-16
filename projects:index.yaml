@@ -14,27 +14,27 @@ commands:
     output: |-
       <ul>
         <li>
-          <span class="sha">fad4b3b</span>
+          <span class="sha">f65f8c0</span>
           <a href="https://github.com/seart-group/ghs" target="_blank">ghs</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">f5648c7</span>
+          <span class="sha">a43aa12</span>
           <a href="https://github.com/seart-group/DL4SE" target="_blank">DL4SE</a>
           <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span class="sha">70626e5</span>
+          <span class="sha">1760fa1</span>
           <a href="https://github.com/seart-group/java-tree-sitter" target="_blank">java-tree-sitter</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">a95d535</span>
+          <span class="sha">0a8417a</span>
           <a href="https://github.com/seart-group/jakarta-validation-utils" target="_blank">jakarta-validation-utils</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">7a01268</span>
+          <span class="sha">568b06d</span>
           <a href="https://github.com/seart-group/labeler" target="_blank">labeler</a>
           <span class="ref">(heads/master)</span>
         </li>
