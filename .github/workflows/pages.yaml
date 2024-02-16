@@ -12,10 +12,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Generate HTML
         run: npm run build
       - name: Push changes to branch
