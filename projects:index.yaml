@@ -44,6 +44,11 @@ commands:
           <span class="ref">(heads/main)</span>
         </li>
         <li>
+          <span class="sha">7dc25b1</span>
+          <a href="https://github.com/dabico/nginx-access-log-digest" target="_blank">nginx-access-log-digest</a>
+          <span class="ref">(heads/master)</span>
+        </li>
+        <li>
           <span class="sha">17e26be</span>
           <a href="https://github.com/dabico/octicons-css" target="_blank">octicons-css</a>
           <span class="ref">(heads/main)</span>
