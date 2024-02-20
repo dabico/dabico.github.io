@@ -39,6 +39,11 @@ commands:
           <span class="ref">(heads/master)</span>
         </li>
         <li>
+          <span class="sha">3bbe0b8</span>
+          <a href="https://github.com/seart-group/reverse-proxy" target="_blank">reverse-proxy</a>
+          <span class="ref">(heads/master)</span>
+        </li>
+        <li>
           <span class="sha">8ee3c66</span>
           <a href="https://github.com/seart-group/github-keyword-crawler" target="_blank">github-keyword-crawler</a>
           <span class="ref">(heads/main)</span>
