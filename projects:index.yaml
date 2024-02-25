@@ -14,7 +14,7 @@ commands:
     output: |-
       <ul>
         <li>
-          <span class="sha">f65f8c0</span>
+          <span class="sha">6102b04</span>
           <a href="https://github.com/seart-group/ghs" target="_blank">ghs</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -24,7 +24,7 @@ commands:
           <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span class="sha">1760fa1</span>
+          <span class="sha">363410b</span>
           <a href="https://github.com/seart-group/java-tree-sitter" target="_blank">java-tree-sitter</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -34,12 +34,12 @@ commands:
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">568b06d</span>
+          <span class="sha">4ab47f7</span>
           <a href="https://github.com/seart-group/labeler" target="_blank">labeler</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">3bbe0b8</span>
+          <span class="sha">0c0b230</span>
           <a href="https://github.com/seart-group/reverse-proxy" target="_blank">reverse-proxy</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -49,7 +49,7 @@ commands:
           <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span class="sha">7dc25b1</span>
+          <span class="sha">00a4c38</span>
           <a href="https://github.com/dabico/nginx-access-log-digest" target="_blank">nginx-access-log-digest</a>
           <span class="ref">(heads/master)</span>
         </li>
