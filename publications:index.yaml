@@ -13,17 +13,22 @@ keywords:
   - transactions on software engineering
   - TSE
 commands:
-  - command: ls -lh | awk "$STATS"
+  - command: stat -f "%A %Sm %N" -t "%b %d %Y" -- *
     output: |-
       <ul>
         <li>
-          <span>lrw-r--r--</span>
-          <span>Mar 8 2021</span>
-          <a href="https://arxiv.org/pdf/2103.04682.pdf" target="_blank">MSR.pdf</a>
+          <span>644</span>
+          <span>Mar 08 2021</span>
+          <a href="https://arxiv.org/pdf/2103.04682.pdf" target="_blank">01_MSR.pdf</a>
         </li>
         <li>
-          <span>lrw-r--r--</span>
-          <span>Jan 1 2024</span>
-          <a href="https://arxiv.org/pdf/2401.05136.pdf" target="_blank">TSE.pdf</a>
+          <span>644</span>
+          <span>Jan 10 2024</span>
+          <a href="https://arxiv.org/pdf/2401.05136.pdf" target="_blank">01_TSE.pdf</a>
+        </li>
+        <li>
+          <span>644</span>
+          <span>Feb 26 2024</span>
+          <a href="https://arxiv.org/pdf/2402.16480.pdf" target="_blank">02_MSR.pdf</a>
         </li>
       </ul>
