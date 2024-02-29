@@ -26,11 +26,28 @@ scripts: |-
           const path = window.location.pathname;
           const segments = path.split("/");
           const page = segments.pop().replace(/\.[^/.]+$/, "");
-          const command = `<span class="command" data-text="cd ${page}"></span>`
-          const prompt = `<div class="prompt">&gt;${command}<span class="blinker"></span></div>`
-          const output = `<div class="output" hidden><p>cd: The directory '${page}' does not exist</p></div>`;
-          const html = `<div class="section" hidden>${prompt +output}</div>`;
+          const command = document.createElement("span");
+          command.classList.add("command");
+          command.dataset.text = `cd ${page}`;
+          const blinker = document.createElement("span");
+          blinker.classList.add("blinker");
+          const prompt = document.createElement("div");
+          prompt.classList.add("prompt");
+          prompt.innerHTML = "&gt;";
+          prompt.append(command);
+          prompt.append(blinker);
+          const paragraph = document.createElement("p");
+          paragraph.innerText = `cd: The directory '${page}' does not exist`;
+          const output = document.createElement("div");
+          output.classList.add("output");
+          output.hidden = true;
+          output.append(paragraph);
+          const section = document.createElement("div");
+          section.classList.add("section");
+          section.hidden = true;
+          section.append(prompt);
+          section.append(output);
           const terminal = document.querySelector(".terminal");
-          terminal.insertAdjacentHTML("afterbegin", html);
+          terminal.prepend(section);
       })();
   </script>
