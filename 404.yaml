@@ -5,7 +5,7 @@ keywords:
   - 404
   - not found
 commands:
-  - command: cat ~/404.txt
+  - command: cat 404.txt
     output: |-
       <pre><code>
             .o     .oooo.         .o
@@ -18,17 +18,16 @@ commands:
 
                   NOT FOUND</code></pre>
 action:
-  command: cd /
+  command: clear
   href: /
 scripts: |-
   <script>
       (function () {
-          const path = window.location.pathname;
-          const segments = path.split("/");
-          const page = segments.pop().replace(/\.[^/.]+$/, "");
+          const path = window.location.pathname.substring(1);
+          const text = `realpath: ${path}: No such file or directory`;
           const command = document.createElement("span");
           command.classList.add("command");
-          command.dataset.text = `cd ${page}`;
+          command.dataset.text = `realpath ${path}`;
           const blinker = document.createElement("span");
           blinker.classList.add("blinker");
           const prompt = document.createElement("div");
@@ -37,7 +36,7 @@ scripts: |-
           prompt.append(command);
           prompt.append(blinker);
           const paragraph = document.createElement("p");
-          paragraph.innerText = `cd: The directory '${page}' does not exist`;
+          paragraph.innerText = text;
           const output = document.createElement("div");
           output.classList.add("output");
           output.hidden = true;
