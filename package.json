@@ -15,9 +15,14 @@
     "dev:server": "http-server dist -s -o -c-1 -p 8080",
     "dev": "npm-run-all lint build dev:server"
   },
-  "staticFiles": {
-    "staticPath": "CNAME"
-  },
+  "staticFiles": [
+    {
+      "staticPath": "404.txt"
+    },
+    {
+      "staticPath": "CNAME"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dabico/dabico.github.io.git"
