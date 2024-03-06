@@ -14,7 +14,7 @@ commands:
     output: |-
       <ul>
         <li>
-          <span class="sha">6102b04</span>
+          <span class="sha">b581d55</span>
           <a href="https://github.com/seart-group/ghs" target="_blank">ghs</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -24,12 +24,12 @@ commands:
           <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span class="sha">363410b</span>
+          <span class="sha">3634f33</span>
           <a href="https://github.com/seart-group/java-tree-sitter" target="_blank">java-tree-sitter</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">0a8417a</span>
+          <span class="sha">7b29cd7</span>
           <a href="https://github.com/seart-group/jakarta-validation-utils" target="_blank">jakarta-validation-utils</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -59,8 +59,8 @@ commands:
           <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span class="sha">f3e3e3e</span>
-          <a href="https://github.com/dabico/lettercrap" target="_blank">lettercrap</a>
+          <span class="sha">685166e</span>
+          <a href="https://github.com/lettercrap/lettercrap" target="_blank">lettercrap</a>
           <span class="ref">(heads/master)</span>
         </li>
       </ul>
