@@ -6,7 +6,7 @@
   "description": "My personal website",
   "source": "index.html",
   "scripts": {
-    "lint-js": "eslint index.js js/main.js",
+    "lint-js": "eslint .",
     "lint-css": "stylelint css/*.css",
     "lint": "npm-run-all lint-js lint-css",
     "parcel-clean": "rm -rf .parcel-cache dist",
