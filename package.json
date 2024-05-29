@@ -6,9 +6,9 @@
   "description": "My personal website",
   "source": "index.html",
   "scripts": {
-    "lint-js": "eslint .",
-    "lint-css": "stylelint css/*.css",
-    "lint": "npm-run-all lint-js lint-css",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint css/*.css",
+    "lint": "npm-run-all --parallel lint:*",
     "parcel-clean": "rm -rf .parcel-cache dist",
     "parcel-build": "node index.js && parcel build index.html 404.html **/*.html",
     "build": "npm-run-all parcel-clean parcel-build",
