@@ -29,6 +29,11 @@ commands:
           <span class="ref">(heads/master)</span>
         </li>
         <li>
+          <span class="sha">8fc7b6a</span>
+          <a href="https://github.com/seart-group/jcloc" target="_blank">jcloc</a>
+          <span class="ref">(heads/master)</span>
+        </li>
+        <li>
           <span class="sha">d4280cf</span>
           <a href="https://github.com/seart-group/jakarta-validation-utils" target="_blank">jakarta-validation-utils</a>
           <span class="ref">(heads/master)</span>
