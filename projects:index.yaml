@@ -14,7 +14,7 @@ commands:
     output: |-
       <ul>
         <li>
-          <span class="sha">e4da7f6</span>
+          <span class="sha">768b241</span>
           <a href="https://github.com/seart-group/ghs" target="_blank">ghs</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -24,22 +24,22 @@ commands:
           <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span class="sha">8098ed6</span>
+          <span class="sha">c122da1</span>
           <a href="https://github.com/seart-group/java-tree-sitter" target="_blank">java-tree-sitter</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">925cb15</span>
+          <span class="sha">d4280cf</span>
           <a href="https://github.com/seart-group/jakarta-validation-utils" target="_blank">jakarta-validation-utils</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">fb9d409</span>
+          <span class="sha">83eb20a</span>
           <a href="https://github.com/seart-group/labeler" target="_blank">labeler</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">23f96bb</span>
+          <span class="sha">e40f3ae</span>
           <a href="https://github.com/seart-group/reverse-proxy" target="_blank">reverse-proxy</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -54,12 +54,12 @@ commands:
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">55e02ae</span>
+          <span class="sha">087fa40</span>
           <a href="https://github.com/dabico/octicons-css" target="_blank">octicons-css</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">799ff62</span>
+          <span class="sha">c376041</span>
           <a href="https://github.com/lettercrap/lettercrap" target="_blank">lettercrap</a>
           <span class="ref">(heads/master)</span>
         </li>
