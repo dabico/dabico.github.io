@@ -40,6 +40,11 @@ commands:
           <span class="ref">(heads/master)</span>
         </li>
         <li>
+          <span class="sha">326b0ec</span>
+          <a href="https://github.com/seart-group/git-submodule-maven-plugin" target="_blank">git-submodule-maven-plugin</a>
+          <span class="ref">(heads/master)</span>
+        </li>
+        <li>
           <span class="sha">19d0000</span>
           <a href="https://github.com/seart-group/labeler" target="_blank">labeler</a>
           <span class="ref">(heads/master)</span>
