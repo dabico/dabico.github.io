@@ -14,7 +14,7 @@ commands:
     output: |-
       <ul>
         <li>
-          <span class="sha">768b241</span>
+          <span class="sha">071793c</span>
           <a href="https://github.com/seart-group/ghs" target="_blank">ghs</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -24,27 +24,27 @@ commands:
           <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span class="sha">c122da1</span>
+          <span class="sha">d6f0f8c</span>
           <a href="https://github.com/seart-group/java-tree-sitter" target="_blank">java-tree-sitter</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">8fc7b6a</span>
+          <span class="sha">15790ae</span>
           <a href="https://github.com/seart-group/jcloc" target="_blank">jcloc</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">d4280cf</span>
+          <span class="sha">22aaf8b</span>
           <a href="https://github.com/seart-group/jakarta-validation-utils" target="_blank">jakarta-validation-utils</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">83eb20a</span>
+          <span class="sha">19d0000</span>
           <a href="https://github.com/seart-group/labeler" target="_blank">labeler</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">e40f3ae</span>
+          <span class="sha">691fb9a</span>
           <a href="https://github.com/seart-group/reverse-proxy" target="_blank">reverse-proxy</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -64,7 +64,7 @@ commands:
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">c376041</span>
+          <span class="sha">8b96b87</span>
           <a href="https://github.com/lettercrap/lettercrap" target="_blank">lettercrap</a>
           <span class="ref">(heads/master)</span>
         </li>
