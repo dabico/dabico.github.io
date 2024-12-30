@@ -32,11 +32,11 @@ commands:
           </li>
           <li>
             <span class="fa-li"><i class="fas fa-laptop-code"></i></span>
-            <span>Software Engineer</span>
+            <span>Software Developer</span>
           </li>
           <li>
             <span class="fa-li"><i class="fas fa-flask-vial"></i></span>
-            <span>Research Assistant</span>
+            <span>Researcher</span>
           </li>
         </ul>
         <ul class="about-item fa-ul">
@@ -65,12 +65,12 @@ commands:
   - command: tldr
     output: |-
       <p>
-        I currently work as a Research Assistant and Software Engineer for the
-        <a href="https://seart.si.usi.ch" target="_blank">Software Analytics Research Team</a>
-        of the <a href="https://si.usi.ch" target="_blank">Software Institute</a> in Lugano.
-        As a Full Stack Developer, my work primarily revolves around creating software solutions and web platforms
-        for academia, intended to streamline the research process. I also participate in research focusing on the
-        usage of Deep Learning models to automate various software engineering tasks.
+        I currently work as a Software Developer for the Research Engineering Squad of
+        <a href="https://jetbrains.com/research" target="_blank">JetBrains Research</a> in Belgrade, Serbia.
+        My work primarily revolves around agentic AI: creating new, and developing existing libraries
+        and SDKs that streamline the creation and integration of AI features for products.
+        Before that, I worked in academia as a research assistant, investigating how deep learning can be used to
+        automate various software engineering tasks.
       </p>
   - command: ls -d */
     output: |-
