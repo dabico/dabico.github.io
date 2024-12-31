@@ -15,7 +15,7 @@ const options = {
 
 const files = await fs.readdir(".", { withFileTypes: true });
 files.filter(entry => entry.isFile())
-    .map(file => `${file.path}/${file.name}`)
+    .map(file => `${file.parentPath}/${file.name}`)
     .filter(path => path.endsWith(".yaml"))
     .forEach(async function (path) {
         const context = Yaml.load(await fs.readFile(path, "utf-8"));
