@@ -12,7 +12,7 @@
     "parcel:clean": "rm -rf .parcel-cache dist",
     "parcel:build": "node index.js && parcel build index.html 404.html **/*.html",
     "build": "npm-run-all parcel:clean parcel:build",
-    "dev:server": "http-server dist -s -o -c-1 -p 8080",
+    "dev:server": "parcel serve -p 8080 --open",
     "dev": "npm-run-all lint build dev:server"
   },
   "staticFiles": [
@@ -46,7 +46,6 @@
     "globals": "^15.14.0",
     "handlebars": "^4.7.8",
     "html-minifier-terser": "^7.2.0",
-    "http-server": "^14.1.1",
     "js-yaml": "^4.1.0",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.13.3",
