@@ -20,8 +20,8 @@ commands:
           </li>
           <li>
             <span class="fa-li"><i class="fas fa-envelope"></i></span>
-            <a onclick="window.location.href=`mailto:${atob('b3pyZW4uZGFiaWNAamV0YnJhaW5zLmNvbQ==')}`">
-              ozren.dabic@<span hidden>no spam please</span>jetbrains.com
+            <a onclick="window.location.href=`mailto:${atob('ZGFiaWMub3pyZW5AZ21haWwuY29t')}`">
+              dabic.ozren@<span hidden>no spam please</span>gmail.com
             </a>
           </li>
           <li>
