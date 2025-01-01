@@ -26,8 +26,8 @@ commands:
           </li>
           <li>
             <span class="fa-li"><i class="fas fa-key"></i></span>
-            <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xdf50683fcabfd29b" target="_blank">
-              df50683fcabfd29b
+            <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xfc581968133c51d2" target="_blank">
+              fc581968133c51d2
             </a>
           </li>
           <li>
