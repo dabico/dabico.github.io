@@ -14,6 +14,8 @@ keywords:
   - TSE
   - international conference on software maintenance and evolution
   - ICSME
+  - international conference on software engineering
+  - ICSE
 commands:
   - command: stat -f "%A %Sm %N" -t "%b %d %Y" -- *
     output: |-
@@ -37,5 +39,10 @@ commands:
           <span>755</span>
           <span>Oct 10 2024</span>
           <a href="https://arxiv.org/pdf/2409.18658.pdf" target="_blank">01_ICSME.pdf</a>
+        </li>
+        <li>
+          <span>755</span>
+          <span>Apr 28 2025</span>
+          <a href="https://arxiv.org/pdf/2411.11401.pdf" target="_blank">01_ICSE.pdf</a>
         </li>
       </ul>
