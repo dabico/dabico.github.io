@@ -20,6 +20,9 @@
       "staticPath": "404.txt"
     },
     {
+      "staticPath": "robots.txt"
+    },
+    {
       "staticPath": "CNAME"
     }
   ],
