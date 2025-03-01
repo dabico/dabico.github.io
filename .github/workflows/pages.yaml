@@ -19,6 +19,11 @@ jobs:
         run: npm ci
       - name: Generate HTML
         run: npm run build
+      - name: Generate sitemap
+        uses: cicirello/generate-sitemap@v1.10.1
+        with:
+          base-url-path: https://ozrendabic.sh/
+          path-to-root: dist
       - name: Push changes to branch
         uses: s0/git-publish-subdir-action@v2.6.0
         env:
