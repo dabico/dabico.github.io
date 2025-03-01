@@ -5,9 +5,9 @@ keywords:
   - 404
   - not found
 commands:
-  - command: cat 00_hello_world.md
+  - command: cat 00-hello-world.md
     output: |-
-      <p>cat: 00_hello_world.md: No such file or directory</p>
+      <p>cat: 00-hello-world.md: No such file or directory</p>
   - command: cat ~/404.txt
     output: |-
       <pre><code>
