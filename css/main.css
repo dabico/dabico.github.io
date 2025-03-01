@@ -130,7 +130,7 @@ a:active {
     }
 }
 
-@media (width <= 425) {
+@media (width <= 425px) {
     .ref {
         display: none;
     }
