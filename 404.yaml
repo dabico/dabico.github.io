@@ -4,6 +4,7 @@ description: The page you were looking for could not be found
 keywords:
   - 404
   - not found
+tagline: Not found!
 commands:
   - command: cat 404.txt
     output: |-

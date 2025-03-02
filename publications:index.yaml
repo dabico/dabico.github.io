@@ -16,6 +16,7 @@ keywords:
   - ICSME
   - international conference on software engineering
   - ICSE
+tagline: Scientific publications I authored, co-authored or contributed to.
 commands:
   - command: stat -f "%A %Sm %N" -t "%b %d %Y" -- *
     output: |-

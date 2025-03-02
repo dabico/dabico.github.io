@@ -8,6 +8,7 @@ keywords:
   - portfolio
   - cv
   - blog
+tagline: Deliver yesterday, code today, think tomorrow.
 commands:
   - command: whoami
     output: |-

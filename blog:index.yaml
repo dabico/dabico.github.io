@@ -6,6 +6,7 @@ keywords:
   - blog
   - article
   - writing
+tagline: Unfiltered musings and ideas captured in writing.
 commands:
   - command: ls -lh
     output: |-

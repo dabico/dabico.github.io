@@ -38,6 +38,9 @@
   </head>
   <body data-page-name="{{ id }}">
     <main class="terminal">
+      {{#if tagline}}
+        <h1 class="visually-hidden">{{ tagline }}</h1>
+      {{/if}}
       {{#commands}}
         <div class="section" hidden>
           <div class="prompt">&gt;<span class="command" data-text="{{ command }}"></span><span class="blinker"></span></div>
