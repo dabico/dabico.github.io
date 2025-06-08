@@ -20,6 +20,9 @@
       "staticPath": "404.txt"
     },
     {
+      "staticPath": "privacy.txt"
+    },
+    {
       "staticPath": "robots.txt"
     },
     {
