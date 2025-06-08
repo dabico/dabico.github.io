@@ -6,14 +6,19 @@
   "description": "My personal website",
   "source": "index.html",
   "scripts": {
+    "build": "npm-run-all html:build parcel:build",
+    "clean": "npm-run-all --parallel *:clean",
+    "dev:server": "http-server -p 8080 -o",
+    "dev": "npm-run-all clean html:build dev:server",
+    "html:build": "node generate",
+    "html:clean": "del-cli -f -v \"**/*.html\" \"!node_modules/**/*.html\"",
     "lint:js": "eslint .",
     "lint:css": "stylelint css/*.css",
     "lint": "npm-run-all --parallel lint:*",
-    "parcel:clean": "del-cli -f -v \".parcel-cache/**\" \"dist/**\" \"**/*.html\" \"!node_modules/**/*.html\"",
-    "parcel:build": "node generate && parcel build index.html 404.html **/*.html",
-    "build": "npm-run-all parcel:clean parcel:build",
-    "dev:server": "parcel serve -p 8080 --open",
-    "dev": "npm-run-all lint build dev:server"
+    "package": "npm-run-all clean lint build",
+    "parcel:build": "parcel build index.html 404.html **/*.html",
+    "parcel:clean": "del-cli -f -v \".parcel-cache/**\" \"dist/**\"",
+    "parcel:serve": "parcel serve --port 8080 --open"
   },
   "staticFiles": [
     {
