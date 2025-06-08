@@ -9,7 +9,7 @@
     "lint:js": "eslint .",
     "lint:css": "stylelint css/*.css",
     "lint": "npm-run-all --parallel lint:*",
-    "parcel:clean": "rm -rf .parcel-cache dist",
+    "parcel:clean": "del-cli -f -v \".parcel-cache/**\" \"dist/**\" \"**/*.html\" \"!node_modules/**/*.html\"",
     "parcel:build": "node index.js && parcel build index.html 404.html **/*.html",
     "build": "npm-run-all parcel:clean parcel:build",
     "dev:server": "parcel serve -p 8080 --open",
@@ -48,6 +48,7 @@
   "homepage": "https://dabico.github.io",
   "devDependencies": {
     "@eslint/js": "^9.28.0",
+    "del-cli": "^6.0.0",
     "eslint": "^9.28.0",
     "globals": "^16.2.0",
     "handlebars": "^4.7.8",
