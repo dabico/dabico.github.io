@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -30,8 +31,12 @@
 }
 
 html {
-    font-family: Monaco, monospace;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
     font-size: 16px;
+    font-style: normal;
+    font-variant-ligatures: none;
+    font-weight: 400;
     background-color: black;
     color: var(--color-neon-green);
 }
