@@ -10,7 +10,7 @@
     "lint:css": "stylelint css/*.css",
     "lint": "npm-run-all --parallel lint:*",
     "parcel:clean": "del-cli -f -v \".parcel-cache/**\" \"dist/**\" \"**/*.html\" \"!node_modules/**/*.html\"",
-    "parcel:build": "node index.js && parcel build index.html 404.html **/*.html",
+    "parcel:build": "node generate && parcel build index.html 404.html **/*.html",
     "build": "npm-run-all parcel:clean parcel:build",
     "dev:server": "parcel serve -p 8080 --open",
     "dev": "npm-run-all lint build dev:server"
