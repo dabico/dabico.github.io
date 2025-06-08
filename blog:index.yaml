@@ -9,6 +9,7 @@ keywords:
 tagline: Unfiltered musings and ideas captured in writing.
 commands:
   - command: ls -lh
+    # language=html
     output: |-
       <ul>
         <li>

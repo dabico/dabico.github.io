@@ -11,6 +11,7 @@ keywords:
 tagline: Deliver yesterday, code today, think tomorrow.
 commands:
   - command: whoami
+    # language=html
     output: |-
       <div class="about">
         <img class="about-item avatar" src="/img/whoami.jpg" alt="File not found" />
@@ -64,6 +65,7 @@ commands:
         </ul>
       </div>
   - command: tldr
+    # language=html
     output: |-
       <p>
         I currently work as a Software Developer for the Research Engineering Squad of
@@ -74,6 +76,7 @@ commands:
         automate various software engineering tasks.
       </p>
   - command: ls -d */
+    # language=html
     output: |-
       <ul>
         <li><a href="/blog">blog/</a></li>
@@ -83,7 +86,9 @@ commands:
 action:
   command: wget ozren_dabic_cv.pdf
   href: https://github.com/dabico/cv/releases/download/v1.0.0/ozren_dabic_cv.pdf
+# language=html
 stylesheets: |-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" integrity="sha384-nRgPTkuX86pH8yjPJUAFuASXQSSl2/bBUiNV47vSYpKFxHJhbcrGnmlYpYJMeD7a" crossorigin="anonymous">
+# language=html
 scripts: |-
   <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/js/all.min.js" integrity="sha384-DsXFqEUf3HnCU8om0zbXN58DxV7Bo8/z7AbHBGd2XxkeNpdLrygNiGFr/03W0Xmt" crossorigin="anonymous"></script>

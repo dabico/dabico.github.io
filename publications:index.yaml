@@ -19,6 +19,7 @@ keywords:
 tagline: Scientific publications I authored, co-authored or contributed to.
 commands:
   - command: stat -f "%A %Sm %N" -t "%b %d %Y" -- *
+    # language=html
     output: |-
       <ul>
         <li>

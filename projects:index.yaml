@@ -13,6 +13,7 @@ keywords:
 tagline: Stuff I work(ed) on.
 commands:
   - command: git submodule status
+    # language=html
     output: |-
       <ul>
         <li>

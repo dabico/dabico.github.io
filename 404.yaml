@@ -7,6 +7,7 @@ keywords:
 tagline: Not found!
 commands:
   - command: cat 404.txt
+    # language=html
     output: |-
       <pre><code>
             .o     .oooo.         .o
@@ -21,6 +22,7 @@ commands:
 action:
   command: clear
   href: /
+# language=html
 scripts: |-
   <script>
       (function () {
