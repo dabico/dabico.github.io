@@ -20,7 +20,7 @@ jobs:
       - name: Generate HTML
         run: npm run package
       - name: Generate sitemap
-        uses: cicirello/generate-sitemap@v1.10.2
+        uses: cicirello/generate-sitemap@v1.10.3
         with:
           base-url-path: https://ozrendabic.sh/
           path-to-root: dist
