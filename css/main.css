@@ -54,7 +54,6 @@ a {
     text-decoration: none;
     cursor: pointer;
     word-break: break-all;
-    word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
