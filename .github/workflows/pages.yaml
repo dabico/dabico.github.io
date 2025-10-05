@@ -22,7 +22,7 @@ jobs:
       - name: Generate sitemap
         uses: cicirello/generate-sitemap@v1.10.3
         with:
-          base-url-path: https://ozrendabic.sh/
+          base-url-path: https://dabico.github.io/
           path-to-root: dist
       - name: Push changes to branch
         uses: s0/git-publish-subdir-action@v2.6.0

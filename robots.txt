@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Crawl-delay: 1
-Sitemap: https://ozrendabic.sh/sitemap.xml
+Sitemap: https://dabico.github.io/sitemap.xml
