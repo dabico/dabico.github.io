@@ -17,7 +17,7 @@ commands:
     output: |-
       <ul>
         <li>
-          <span class="sha">f364cee</span>
+          <span class="sha">a658982</span>
           <a href="https://github.com/seart-group/ghs" target="_blank">ghs</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -27,32 +27,32 @@ commands:
           <span class="ref">(heads/main)</span>
         </li>
         <li>
-          <span class="sha">68ff7a8</span>
+          <span class="sha">0fd0466</span>
           <a href="https://github.com/seart-group/java-tree-sitter" target="_blank">java-tree-sitter</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">31a15a8</span>
+          <span class="sha">55ba186</span>
           <a href="https://github.com/seart-group/jcloc" target="_blank">jcloc</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">b8e7351</span>
+          <span class="sha">58122db</span>
           <a href="https://github.com/seart-group/jakarta-validation-utils" target="_blank">jakarta-validation-utils</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">7b9b00d</span>
+          <span class="sha">ddd4e12</span>
           <a href="https://github.com/seart-group/git-submodule-maven-plugin" target="_blank">git-submodule-maven-plugin</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">be5abfe</span>
+          <span class="sha">55f030a</span>
           <a href="https://github.com/seart-group/labeler" target="_blank">labeler</a>
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">cbb2afa</span>
+          <span class="sha">b575dac</span>
           <a href="https://github.com/seart-group/reverse-proxy" target="_blank">reverse-proxy</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -67,7 +67,7 @@ commands:
           <span class="ref">(heads/master)</span>
         </li>
         <li>
-          <span class="sha">a973db6</span>
+          <span class="sha">1a009d6</span>
           <a href="https://github.com/dabico/octicons-css" target="_blank">octicons-css</a>
           <span class="ref">(heads/master)</span>
         </li>
@@ -75,5 +75,10 @@ commands:
           <span class="sha">a71f9b5</span>
           <a href="https://github.com/lettercrap/lettercrap" target="_blank">lettercrap</a>
           <span class="ref">(heads/master)</span>
+        </li>
+        <li>
+          <span class="sha">15e09256</span>
+          <a href="https://github.com/pycloc/pycloc" target="_blank">pycloc</a>
+          <span class="ref">(heads/main)</span>
         </li>
       </ul>
