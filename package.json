@@ -29,9 +29,6 @@
     },
     {
       "staticPath": "robots.txt"
-    },
-    {
-      "staticPath": "CNAME"
     }
   ],
   "repository": {
