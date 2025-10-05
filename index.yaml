@@ -10,70 +10,15 @@ keywords:
   - blog
 tagline: The Drive to Develop Research.
 commands:
-  - command: whoami
-    # language=html
-    output: |-
-      <div class="about">
-        <img class="about-item avatar" src="/img/whoami.jpg" alt="File not found" />
-        <ul class="about-item fa-ul">
-          <li>
-            <span class="fa-li"><i class="fas fa-user"></i></span>
-            <span>Ozren Dabić</span>
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-envelope"></i></span>
-            <a onclick="window.location.href=`mailto:${atob('ZGFiaWMub3pyZW5AZ21haWwuY29t')}`">
-              dabic.ozren@<span hidden>no spam please</span>gmail.com
-            </a>
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-key"></i></span>
-            <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xfc581968133c51d2" target="_blank">
-              fc581968133c51d2
-            </a>
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-laptop-code"></i></span>
-            <span>Software Developer</span>
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-flask-vial"></i></span>
-            <span>Researcher</span>
-          </li>
-        </ul>
-        <ul class="about-item fa-ul">
-          <li>
-            <span class="fa-li"><i class="fa-brands fa-github"></i></span>
-            <a href="https://github.com/dabico" target="_blank">GitHub</a>
-          </li>
-          <li>
-            <span class="fa-li"><i class="fa-brands fa-twitter"></i></span>
-            <a href="https://twitter.com/ozrendabic" target="_blank">Twitter</a>
-          </li>
-          <li>
-            <span class="fa-li"><i class="fa-brands fa-linkedin"></i></span>
-            <a href="https://linkedin.com/in/dabico" target="_blank">LinkedIn</a>
-          </li>
-          <li>
-            <span class="fa-li"><i class="fa-brands fa-google"></i></span>
-            <a href="https://scholar.google.com/citations?user=JLjaEPQAAAAJ" target="_blank">Google Scholar</a>
-          </li>
-          <li>
-            <span class="fa-li"><i class="fa-brands fa-telegram"></i></span>
-            <a href="https://t.me/dabico" target="_blank">Telegram</a>
-          </li>
-        </ul>
-      </div>
-  - command: tldr
+  - command: id -Gn $(whoami)
     # language=html
     output: |-
       <p>
-        I currently work as a Software Developer for the Research Engineering Squad of
-        <a href="https://jetbrains.com/research" target="_blank">JetBrains Research</a> in Belgrade, Serbia.
-        My work primarily revolves around AI: creating new and developing existing libraries
-        and SDKs that streamline the creation and refinement of AI features, along with their integration into products.
-        Before that, I worked in academia as a research assistant, investigating how deep learning can be used to
-        automate various software engineering tasks.
+        <a>dabico</a>
+        <a href="https://lp.jetbrains.com/research/software-engineering" target="_blank">jetbrains-research-staff</a>
+        <a href="https://jetbrains.com" target="_blank">jetbrains-staff</a>
+        <a href="https://seart.si.usi.ch" target="_blank">usi-seart-alumni</a>
+        <a href="https://www.inf.usi.ch" target="_blank">usi-inf-alumni</a>
       </p>
   - command: ls -d */
     # language=html
@@ -83,12 +28,16 @@ commands:
         <li><a href="/projects">projects/</a></li>
         <li><a href="/publications">publications/</a></li>
       </ul>
+  - command: find . -type l -printf "%p -> %l\n"
+    # language=html
+    output: |-
+      <ul>
+          <li>./github -&gt; <a href="https://github.com/dabico" target="_blank">github.com/dabico</a></li>
+          <li>./gscholar -&gt; <a href="https://scholar.google.com/citations?user=JLjaEPQAAAAJ" target="_blank">scholar.google.com/citations?user=JLjaEPQAAAAJ</a></li>
+          <li>./linkedin -&gt; <a href="https://linkedin.com/in/dabico" target="_blank">linkedin.com/in/dabico</a></li>
+          <li>./telegram -&gt; <a href="https://t.me/dabico" target="_blank">t.me/dabico</a></li>
+          <li>./x -&gt; <a href="https://x.com/ozrendabic" target="_blank">x.com/ozrendabic</a></li>
+      </ul>
 action:
-  command: wget ozren_dabic_cv.pdf
+  command: wget cv.pdf
   href: https://github.com/dabico/cv/releases/download/v1.0.0/ozren_dabic_cv.pdf
-# language=html
-stylesheets: |-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" integrity="sha384-nRgPTkuX86pH8yjPJUAFuASXQSSl2/bBUiNV47vSYpKFxHJhbcrGnmlYpYJMeD7a" crossorigin="anonymous">
-# language=html
-scripts: |-
-  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/js/all.min.js" integrity="sha384-DsXFqEUf3HnCU8om0zbXN58DxV7Bo8/z7AbHBGd2XxkeNpdLrygNiGFr/03W0Xmt" crossorigin="anonymous"></script>

@@ -53,6 +53,9 @@ a {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 a[target='_blank'] {
@@ -70,7 +73,8 @@ a:active {
 
 .terminal,
 .cowsay {
-    margin: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
     max-width: var(--tablet-screen-width);
 }
 
@@ -101,40 +105,6 @@ a:active {
     }
 }
 
-.about {
-    display: flex;
-    flex-direction: row;
-}
-
-.avatar {
-    width: 100px;
-    height: 100px;
-}
-
-@media (width <= 250px) {
-    ul.about-item {
-        width: 100%;
-    }
-}
-
-@media (250px < width <= 325px) {
-    ul.about-item {
-        width: 80%;
-    }
-}
-
-@media (325px < width <= 465px) {
-    ul.about-item {
-        width: 60%;
-    }
-}
-
-@media (465px < width <= 540px) {
-    ul.about-item {
-        width: 40%;
-    }
-}
-
 @media (width <= 425px) {
     .ref {
         display: none;
@@ -144,30 +114,6 @@ a:active {
 @media (width <= 500px) {
     .sha {
         display: none;
-    }
-}
-
-@media (width <= 540px) {
-    .about {
-        flex-direction: column;
-    }
-
-    img.about-item {
-        margin-bottom: 10px;
-        align-self: center;
-    }
-
-    .avatar {
-        width: 128px;
-        height: 128px;
-    }
-
-    ul.about-item {
-        align-self: center;
-    }
-
-    ul.about-item:not(:last-child) {
-        margin-bottom: 5px;
     }
 }
 
