@@ -61,6 +61,6 @@
     "parcel": "^2.16.0",
     "parcel-reporter-static-files-copy": "^1.5.3",
     "stylelint": "^16.24.0",
-    "stylelint-config-standard": "^39.0.0"
+    "stylelint-config-standard": "^39.0.1"
   }
 }
