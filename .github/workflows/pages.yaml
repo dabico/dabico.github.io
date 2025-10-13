@@ -20,7 +20,7 @@ jobs:
       - name: Generate HTML
         run: npm run package
       - name: Generate sitemap
-        uses: cicirello/generate-sitemap@v1.10.3
+        uses: cicirello/generate-sitemap@v1.10.4
         with:
           base-url-path: https://dabico.github.io/
           path-to-root: dist
