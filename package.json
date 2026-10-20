@@ -50,7 +50,7 @@
   "homepage": "https://dabico.github.io",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "del-cli": "^7.0.0",
+    "del-cli": "^8.0.1",
     "eslint": "^10.13.0",
     "globals": "^17.13.0",
     "handlebars": "^4.7.10",
