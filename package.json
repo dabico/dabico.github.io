@@ -52,7 +52,7 @@
     "@eslint/js": "^10.0.1",
     "del-cli": "^7.0.0",
     "eslint": "^10.14.0",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "handlebars": "^4.7.10",
     "html-minifier-terser": "^7.2.0",
     "http-server": "^14.1.1",
